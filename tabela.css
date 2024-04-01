@@ -1,0 +1,27 @@
+:root{
+    --cor-texto: #000000;
+    --cor-titulo: #22aec499;
+
+}
+
+body{
+    background-image: url(fundoTabela.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1{
+    color:var(--cor-titulo)
+}
+
+p{
+    color: var(--cor-texto);
+}
+
+
+input{
+    color:black;
+    
+}
+

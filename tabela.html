@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="tabela.css">
+    <link rel="stylesheet" href="sobre.html">
+</head>
+<body>
+    <li class="links"><a href="sobre.html" target="_blank"></a></li>
+    <!--imput e formulario-->
+    <center>
+        <h1>Meu primeiro formulario</h1>
+    <form>
+        <p>Nome: <input type="texto name" name="nome" id="nome" placeholder="Digite seu nome"></p>
+        <p>Sobrenome: <input type="nome" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome"></p>
+        <p>CPF: <input type="number" name="cpf" id="cpf" placeholder="Digite seu CPF"></p>
+        <p><input type="submit" valure="Enviar"></p>
+    </form>
+     <br><br><br>
+     <!--Formulario--> <!--required (para deixar o campo obrigatorio)-->
+     <fieldset>
+        <legend>Dados do Usario</legend>
+        <form action="sobre.html">
+            <p><label for="idnome">Nome: <input type="text" name="nome" id="idnome" placeholder="Digite seu nome" minlength="2" maxlength="10" required="nome"  ></label></p>
+            <p><label for="idsobrenome">Sobrenome: <input type="text" name="sobrenome" id="idsobrenome" placeholder="Digite seu Sobrenome" minlength="3" maxlength="10" required="sobrenome"></label></p>
+            <p><label for="idemail">Email: <input type="text" name="email" id="idemail" placeholder="Digite o seu Email" required="email"></label></p>
+            <p><label for="idcidade">Cidade: <input type="text" name="cidade" id="idcidade" placeholder="Digite sua Cidade" required="cidade"></label></p>
+            <p><input type="submit" valure="Enviar"></p>
+        </form>
+        <div>
+            <ul class="formulario">
+                <li class="links"><a href="sobre.html" target="_blank"></a></li>
+            </ul>
+        </div>
+        
+        
+     </fieldset>
+</center>
+</body>
+</html>
